@@ -3,5 +3,5 @@ services:
   db:
     image: mariadb:latest
     environment:
-      MYSQL_ROOT_PASSWORD: aaa
-      MYSQL_DATABASE: mendelu
+      MARIADB_ROOT_PASSWORD: aaa
+      MARIADB_DATABASE: mendelu
